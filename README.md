@@ -8,9 +8,11 @@ Hello, thanks for your time, there are 2 ways to install this server, first one 
 
 1. please use the installation.sh script, just make sure you're able to run it:
 
-- chmod +rwx installation.sh
-- ./installation.sh
-
+```
+#
+chmod +rwx installation.sh
+./installation.sh
+```
 2. Script will request for enviroment, which you can choose from "dev" to "prod".
 
 3. Make sure you press "Y" when requested.
@@ -19,7 +21,7 @@ Hello, thanks for your time, there are 2 ways to install this server, first one 
 
 ---
 
-'MANUAL"
+# MANUAL
 
 1. please install python3+
 
