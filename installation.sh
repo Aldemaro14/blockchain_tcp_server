@@ -5,7 +5,7 @@ activate(){
 }
 
 sudo apt install python3
-sudo apt -y install python3-pip
+sudo apt install -y python3-pip
 
 python3 -m venv venv
 activate
