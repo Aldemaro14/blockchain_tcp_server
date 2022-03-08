@@ -3,6 +3,7 @@ from rest_framework.decorators import api_view
 from .models import Room
 from .serializers import RoomSerializer
 import random
+import uuid
 
 ##############################################
 ###  VIEWS  ##################################
@@ -33,9 +34,9 @@ def where(request):
     """
     Returns server id as string
     """
-    import uuid
-
-    return Response(uuid.uuid1())
+    rd = random.Random()
+    rd.seed(3)
+    return Response(uuid.UUID(int=rd.getrandbits(128)))
 
 @api_view(['GET'])
 def why(request):
