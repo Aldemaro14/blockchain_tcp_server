@@ -26,7 +26,7 @@ chmod +rwx installation.sh
 
 ```
 sudo apt install python3
-sudo apt install python3-pip
+sudo apt install -y python3-pip
 ```
 2. generate Python enviroment and download dependencies.
 ```
