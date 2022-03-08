@@ -2,6 +2,8 @@
 
 Hello, thanks for your time, there are 2 ways to install this server, first one is automated, second one is manual.
 
+OS: Ubuntu 20.04
+
 ---
 
 # AUTOMATED WAY
