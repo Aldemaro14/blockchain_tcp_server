@@ -51,7 +51,7 @@ echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
   $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
-4. Get reddis image from dockerhub
+4. Get redis image from dockerhub
 ```
 docker run -p 6379:6379 -d redis:5
 ```
